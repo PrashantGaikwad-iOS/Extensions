@@ -12,6 +12,8 @@
 		897AA6C521F790C00043B7BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 897AA6C321F790C00043B7BD /* Main.storyboard */; };
 		897AA6C721F790C30043B7BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 897AA6C621F790C30043B7BD /* Assets.xcassets */; };
 		897AA6CA21F790C30043B7BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 897AA6C821F790C30043B7BD /* LaunchScreen.storyboard */; };
+		897AA6D221F791F70043B7BD /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897AA6D121F791F70043B7BD /* UIViewExtensions.swift */; };
+		897AA6D421F792150043B7BD /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897AA6D321F792150043B7BD /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		897AA6C621F790C30043B7BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		897AA6C921F790C30043B7BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		897AA6CB21F790C30043B7BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		897AA6D121F791F70043B7BD /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		897AA6D321F792150043B7BD /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				897AA6C621F790C30043B7BD /* Assets.xcassets */,
 				897AA6C821F790C30043B7BD /* LaunchScreen.storyboard */,
 				897AA6CB21F790C30043B7BD /* Info.plist */,
+				897AA6D121F791F70043B7BD /* UIViewExtensions.swift */,
+				897AA6D321F792150043B7BD /* CustomTableViewCell.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -136,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				897AA6C221F790C00043B7BD /* ViewController.swift in Sources */,
+				897AA6D221F791F70043B7BD /* UIViewExtensions.swift in Sources */,
+				897AA6D421F792150043B7BD /* CustomTableViewCell.swift in Sources */,
 				897AA6C021F790C00043B7BD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

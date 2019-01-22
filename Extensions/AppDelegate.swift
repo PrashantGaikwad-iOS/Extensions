@@ -44,3 +44,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+/*
+ Extensions -
+ To extend the functionality of a class
+ To seperate the code
+ */
